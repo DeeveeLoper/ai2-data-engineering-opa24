@@ -1,13 +1,14 @@
-# Data Engineering Course Content
+# Data Engineering Course Schedule
 
-1. Streamlit - Building interactive data applications and dashboards
-2. DuckDB - Fast analytical database for data processing
-3. DLT (Data Load Tool) - Framework for automating data pipelines
-4. DBT Core - Data modeling tool for transformations
-5. GitHub - Version control and collaboration workflows
-6. LLM integration - Incorporating AI into data solutions
-7. Snowflake - Cloud-based data warehousing platform
-8. Dagster - Orchestration framework for data pipelines
-9. Docker - Containerization for deployments
-10. Cloud deployment - Implementing solutions in cloud environments
-11. Project implementation and presentation
+1. **Week 12**: Introduction, Streamlit (Lectures: 00-01)
+2. **Week 13**: DuckDB
+3. **Week 14**: DLT (Data Load Tool)
+4. **Week 15**: DBT Core
+5. **Week 16**: DBT Core (continued)
+6. **Week 17**: GitHub for collaboration, project information
+7. **Week 18**: Project work, LLM integration
+8. **Week 19**: Project work, Snowflake
+9. **Week 20**: Project work, Dagster
+10. **Week 21**: Project work, Docker/cloud deployment
+11. **Week 22**: Project presentation and submission
+12. **Week 23**: Buffer/completion week
