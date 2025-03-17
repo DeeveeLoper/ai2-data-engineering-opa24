@@ -1,0 +1,9 @@
+uv pip install streamlit pandas numpy matplotlib plotly openpyxl duckdb
+
+streamlit
+pandas
+numpy
+matplotlib
+plotly
+openpyxl
+duckdb
