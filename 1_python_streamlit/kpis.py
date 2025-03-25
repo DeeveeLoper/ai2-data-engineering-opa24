@@ -20,7 +20,7 @@ print(approved_percentage)
 
 def provider_kpis(provider):
     # Filter for a specific provider
-    applied = df.query(f"`Utbildningsanordare administrativ enhet` == '{provider}'")
+    applied = df.query(f"`Utbildningsanordnare administrativ enhet` == '{provider}'")
     # Count total applications from this provider
     applications = len(applied)
     # Count approved applications from this provider

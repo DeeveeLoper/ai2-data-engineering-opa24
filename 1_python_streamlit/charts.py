@@ -11,7 +11,7 @@ def approved_by_area_bar():
     
     # Use DuckDB to run an SQL query against the pandas DataFrame
     df= duckdb.query("""
-                     SELECT utbildningsområde, COUNT(*) SD Beviljade
+                     SELECT utbildningsområde, COUNT(*) AS Beviljade
                      FROM df
                      WHERE beslut == 'Beviljad'
                      GROUP BY utbildningsområde
@@ -19,7 +19,7 @@ def approved_by_area_bar():
                      DESC
                      """).df()
     
-    st.bar_chart(df, x = "Utibldningsområde", y = "Beviljade")
+    st.bar_chart(df, x = "Utbildningsområde", y = "Beviljade")
     
 # - Plotting methods - 
 #matplotlib plot
