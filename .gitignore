@@ -10,3 +10,7 @@ venv/
 .vscode/git 
 .dbeaver
 .project
+
+# Database files
+*.duckdb
+*.duckdb.wal

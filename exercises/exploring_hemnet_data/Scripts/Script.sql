@@ -1,6 +1,8 @@
+DROP TABLE IF EXISTS hemnet;
+
 -- Creates the hemnet table from the CSV file
 CREATE TABLE hemnet AS
-SELECT * FROM read_csv_auto('./data/hemnet_data_clean.csv');
+SELECT * FROM read_csv_auto('D:/hemnet_data_clean.csv');
 
 -- Shows the table structure
 desc;
@@ -62,7 +64,5 @@ FROM all_houses ah , expensive_houses eh;
 SELECT COUNT (*) AS expensive_count FROM hemnet WHERE final_price > 10000000;
 -- Count number of less expensive properties (below 10 million SEK)
 SELECT COUNT (*) AS expensive_count FROM hemnet WHERE final_price < 10000000;
-
-
 
 
