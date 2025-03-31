@@ -5,7 +5,9 @@ import duckdb
 from pathlib import Path
 
 # Define a resource to be used in the pipeline
-@dlt.resource(write_disposition="append")
+@dlt.resource(write_disposition="replace")
+#@dlt.resource(write_disposition="append")
+
 def load_csv_resource(file_path: str, **kwargs):
     # Read the CSV file with pandas
     df = pd.read_csv(file_path, **kwargs)
@@ -19,8 +21,8 @@ if __name__ == '__main__':
     # Build the path to the CSV file
     csv_path = working_directory / "data" / "NetflixOriginals.csv"
     
-    #data = load_csv_resource(csv_path, encoding = "cp1252")
-    #print(list(data))
+    data = load_csv_resource(csv_path, encoding = "latin1")
+    print(list(data))
     
     # Create a DLT pipeline
     pipeline = dlt.pipeline(
@@ -33,7 +35,6 @@ if __name__ == '__main__':
         dataset_name="staging"
     )
     # Run the pipeline with CSV data and specify the table name
-    # Reads data from the Netflix CSV file with the correct encoding (cp1252)
-    load_info = pipeline.run(load_csv_resource(csv_path, encoding="cp1252"), table_name="netflix")
+    load_info = pipeline.run(load_csv_resource(csv_path, encoding="latin1"), table_name="netflix")
     
     print(load_info)
