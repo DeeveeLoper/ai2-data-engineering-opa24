@@ -5,8 +5,8 @@ import duckdb
 from pathlib import Path
 
 # Define a resource to be used in the pipeline
-@dlt.resource(write_disposition="replace")
-#@dlt.resource(write_disposition="append")
+@dlt.resource(write_disposition="replace")  # Completely replaces existing data with new data
+#@dlt.resource(write_disposition="append") # Adds new data to existing data
 
 def load_csv_resource(file_path: str, **kwargs):
     # Read the CSV file with pandas
