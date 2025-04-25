@@ -5,9 +5,9 @@ select
     headline,
     description,
     description_html,
-    coalesce(duration, 'ej angiven') as duration,
+    coalesce(duration, 'ej angiven') as duration, -- default value if null
     salary_type,
-    salary_description,
+    coalesce(salary_description, 'ej angiven') as salary_description, -- default value if null
     working_hours_type,
     scope_of_work_min,
     scope_of_work_max
