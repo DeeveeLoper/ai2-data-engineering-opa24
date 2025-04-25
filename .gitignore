@@ -1,19 +1,84 @@
 # Python
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
 # Virtual environments
 venv/
 .env
+env/
+ENV/
+.venv
+env.bak/
+venv.bak/
 
 # IDEs and editors
 .vscode/
+.idea/
+*.swp
+*.swo
 .dbeaver
 .project
+.pydevproject
+.settings/
+*.sublime-workspace
+*.sublime-project
 
 # Database files
 *.duckdb
 *.duckdb.wal
+*.db
+*.sqlite
+*.sqlite3
 
 # dlt
 **/.dlt/
+
+# DBT
+target/
+dbt_modules/
+dbt_packages/
+logs/
+.user.yml
+
+# OS specific files
+.DS_Store
+Thumbs.db
+.directory
+desktop.ini
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Logs
+*.log
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
