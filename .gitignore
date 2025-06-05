@@ -28,8 +28,9 @@ env/
 ENV/
 virtualenv/
 
-# Environment files
+# Environment variable files
 .env
+.env.*
 
 # Distribution / packaging
 *.egg-info/

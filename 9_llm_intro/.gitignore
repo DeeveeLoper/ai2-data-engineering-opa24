@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+test-api-gem/.venv/  # explicitly ignore that venv too
+
+# Environment variable files
+.env
+.env.*
+
+# VSCode settings
+.vscode/
+.vscode/*
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS/Linux system files
+.DS_Store
+Thumbs.db
+
+# PyCharm
+.idea/
+
+# Logs and local caches
+*.log
+.cache/
