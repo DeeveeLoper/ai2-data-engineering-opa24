@@ -1,0 +1,73 @@
+Data Engineer 
+Sweden · Reposted 20 hours ago · 21 people clicked apply
+HybridMatches your job preferences, workplace type is Hybrid.  Mid-Senior level
+Skills: Data Science, Data Engineering, +8 more
+Curious where you stand? See how you compare to 21 others who clicked apply. Retry Premium for SEK0
+
+Apply
+
+Save
+Save Data Engineer  at Svenska Spel
+Data Engineer
+Svenska Spel · Sweden (Hybrid)
+
+Apply
+
+Save
+Save Data Engineer  at Svenska Spel
+Show more options
+About the job
+Svenska Spel är nu inne i en transformation kring decentraliserat arbetssätt med inspiration från Data Mesh, där data betraktas som en produkt. Dataprodukterna vill vi ska vara väl beskrivna, konsumentvänliga och de utvecklas decentraliserat ute i de olika teamen där data uppstår runt om i vårt IT-landskap.
+
+Vi söker nu en Data Engineer som vill vara med och forma och utföra denna förflyttning med oss. Kanske är det du?
+
+Vad kommer du att göra?
+
+Ett antal dataprodukter finns nu tillgängliga i Svenska Spels Data Lake, sökbart och dokumenterat i en datakatalog. Arbetet med att göra dataprodukter tar nu fart på allvar. Här behöver vi hjälp.
+
+Som Data Engineer blir du viktig i denna transformation. Du kommer ha nära kontakt med dataproducenter och föra fram konsumentperspektivet, du kommer föra fram värdet av data och vara en ambassadör för vår förflyttning.
+
+Du kommer transformera vårt Data Warehouse till att nyttja bättre källdata, med tydliga kontrakt och ägandeskap. Att renodla och förenkla. Du kommer att arbeta med att införa produkttänk även i vår leverans från Data Warehouse. Så att vi också lever som vi lär. Att erbjuda datakonsumenter ett rikare utbud av data får oss att bli mer datadrivna och innovativa och därmed starkare. Inte minst för att våra kunder ska få en glädjefull och trygg spelupplevelse hos oss.
+
+Är du den som kommer att göra det?
+
+Som person är du framåtlutad och gillar att jobba i en organisation och med teknik som är i ständig förändring. Du tar dig mer än gärna an nya kluriga uppgifter och driver gärna på arbetet tillsammans med dina kollegor med glimten i ögat.
+
+För att lyckas ser vi att du har erfarenhet av följande:
+
+Infrastruktur i molnet
+Programmering i Python
+DevOps
+ETL-arbete
+
+Extra Meriterande Om Du Också Har Erfarenhet Av
+
+Produktifiering av data enligt Data Mesh eller liknande Data Management-strategi
+BigQuery
+SQL
+Terraform
+Dataform
+
+Om Tech på Svenska Spel
+
+På Svenska Spel hanterar vi 10 000 000 transaktioner varje dag, året runt och på sex dagar har vi hanterat samma transaktionsvolym som den största pengaöverföringsappen gör på en månad. Varje dag utvecklar, driftar och supportar vi ett av världens mest avancerade spelsystem, vi är med andra ord ett techbolag som sysslar med spel - inte tvärtom. Och som ett techbolag som sysslar med spel kommer ett ansvar, både för folks drömmar och spänning, men även för deras spelande. Det är också därför du kommer märka att vårt spelansvarsarbete genomsyrar hela företaget från första dagen du börjar jobba hos oss.
+
+Vi är Svenska Spel 
+
+Svenska Spel är hela Sveriges spelbolag. Vi skapar hållbara och roliga spelupplevelser som bidrar till ett bättre Sverige. Genom spel som Triss, Stryktipset och Oddset ger vi våra fyra miljoner kunder spänning, glädje och drömmar. Våra spel är enkla och trygga och oavsett om man spelar online eller fysiskt, själv eller tillsammans med andra, så ska upplevelsen alltid vara positiv. Vi vill att fler ska spela hållbart hos oss och vår verksamhet ska bedrivas på ett socialt, ekonomiskt och miljömässigt ansvarsfullt sätt. Varje år går överskottet till statskassan. Vi är Sveriges största idrottssponsor och investerar nära 300 miljoner kronor årligen i svensk idrott. Vi är modiga, nyfikna och strävar efter enkelhet i allt vi gör samt skapar resultat tillsammans.
+
+Är du nyfiken på våra förmåner? Då hittar du dem här:
+
+https://career.svenskaspel.se/pages/formaner
+
+
+
+Ansökan och kontaktuppgifter
+
+Tjänsten är en tillsvidareanställning med placering i Visby eller Solna/Stockholm med möjlighet till flexibelt distansarbete. På Svenska Spel utför vi jobbet där det passar bäst, ibland är det i hemmet och ibland på något av våra kontor. I maj flyttar vi dessutom från vårt kontor i Solna in till nya fräscha lokaler vid Slussen.
+
+För frågor om tjänsten, kontakta Michael Olofsson, Chef Data & Analytics, michael.olofsson@svenskaspel.se
+
+För frågor om rekryteringsprocessen, kontakta Team Talent Acquisition, teamta@svenskaspel.se
+
+Vi utför intervjuer och urval löpande så tveka inte med att skicka in din ansökan.

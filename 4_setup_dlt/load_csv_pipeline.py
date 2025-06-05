@@ -1,23 +1,40 @@
-import dlt
 import pandas as pd
-from pathlib import Path
+import dlt
 import os
+import duckdb
+from pathlib import Path
 
-@dlt.resource(write_disposition="replace")
+# Define a resource to be used in the pipeline
+@dlt.resource(write_disposition="replace")  # Completely replaces existing data with new data
+#@dlt.resource(write_disposition="append") # Adds new data to existing data
+
 def load_csv_resource(file_path: str, **kwargs):
+    # Read the CSV file with pandas
     df = pd.read_csv(file_path, **kwargs)
     yield df
     
-if __name__ == "__main__":
+if __name__ == '__main__':
+    # Get the current directory where the script is running
+    working_directory = Path(__file__).parent 
     
-    working_directory = Path(__file__).parent
+    os.chdir(working_directory)
+    # Build the path to the CSV file
     csv_path = working_directory / "data" / "NetflixOriginals.csv"
     
     data = load_csv_resource(csv_path, encoding = "latin1")
+    print(list(data))
     
-    pipeline = dlt.pipeline(pipeline_name="movies",
-                           destination=dlt.destinations.duckdb(str(working_directory / "data" / "movies.duckdb")))
+    # Create a DLT pipeline
+    pipeline = dlt.pipeline(
+        pipeline_name="movies", # Name of the pipeline
+        destination=dlt.destinations.duckdb(
+            # DuckDB database path (must be converted to string)
+            str(working_directory / "data" / "movies.duckdb")
+        ),
+        # Creates a schema named "staging" in the databas
+        dataset_name="staging"
+    )
+    # Run the pipeline with CSV data and specify the table name
+    load_info = pipeline.run(load_csv_resource(csv_path, encoding="latin1"), table_name="netflix")
     
-    load_info = pipeline.run(data, table_name="netflix")
     print(load_info)
-    

@@ -3,5 +3,3 @@ WITH staging_data AS (
 )
 
 SELECT * FROM staging_data
-
--- Testing with dbt run

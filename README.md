@@ -1,14 +1,29 @@
-# Data Engineering Course Schedule
+# Data Engineering Course
+This course covers the essentials of modern data engineering tools and practices. Below is a breakdown of the curriculum:
 
-1. Introduction, Streamlit
-2. DuckDB
-3. DLT (Data Load Tool)
-4. DBT Core
-5. DBT Core (continued)
-6. GitHub for collaboration, project information
-7. Project work, LLM integration
-8. Project work, Snowflake
-9. Project work, Dagster
-10. Project work, Docker/cloud deployment
-11. Project presentation and submission
-12. Buffer/completion week
+## Introduction Phase 
+
+Course introduction and Streamlit basics
+Introduction to DuckDB
+Data loading tools
+
+## Data Build Tool Phase 
+
+Data Load Tool (DLT)
+dbt Core fundamentals
+Advanced dbt Core concepts
+
+## Collaboration and Project Phase
+
+GitHub for collaboration and project information
+Extended project work covering:
+
+LLM integration
+Snowflake implementation
+Dagster workflows
+Docker/cloud deployment strategies
+
+## Completion Phase
+
+Project presentations and final submissions
+Buffer period for completions and additional work
