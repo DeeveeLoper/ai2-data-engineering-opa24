@@ -1,6 +1,6 @@
 # DLT related
 secrets.toml
-.dlt
+.dlt/
 config.toml
 
 # Database files
@@ -27,6 +27,7 @@ venv/
 env/
 ENV/
 virtualenv/
+dagster_venv/
 
 # Environment variable files
 .env
@@ -42,3 +43,69 @@ pip-log.txt
 
 # Jupyter Notebooks
 .ipynb_checkpoints/
+
+# ===== DAGSTER SPECIFIC =====
+# Dagster instance storage (när du inte använder DAGSTER_HOME)
+tmp*/
+.dagster/
+dagster_home/
+
+# Dagster logs
+logs/
+storage/
+
+# ===== DBT SPECIFIC =====
+# DBT artifacts och cache
+target/
+dbt_packages/
+logs/
+.dbt/
+
+# DBT profiles (om du har lokala)
+profiles.yml
+
+# ===== DATA WAREHOUSE =====
+# Data warehouse filer (om stora)
+data_warehouse/
+*.duckdb-shm
+*.duckdb-wal
+
+# ===== STREAMLIT =====
+.streamlit/
+
+# ===== SYSTEM FILES =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# ===== TEMP FILES =====
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# ===== API KEYS & CREDENTIALS =====
+credentials.json
+service-account.json
+*.pem
+*.key
+
+# ===== TESTING =====
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ===== IDE =====
+.idea/
+*.sublime-project
+*.sublime-workspace
