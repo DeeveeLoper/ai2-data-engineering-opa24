@@ -1,3 +1,5 @@
+{{ config(materialized='table') }}
+
 WITH staging_data AS (
     SELECT * FROM {{ source('jobads', 'hits') }}
 )
