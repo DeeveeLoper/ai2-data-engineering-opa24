@@ -78,7 +78,7 @@ def dbt_models(context: dg.AssetExecutionContext, dbt: DbtCliResource):
 # ==================== #
 
 job_dlt = dg.define_asset_job("job_dlt", selection=dg.AssetSelection.keys("dlt_jobads_source_get_hits"))
-job_dbt = dg.define_asset_job("job_dbt", selection=dg.AssetSelection.keys(["staging", "original_headline"]))
+job_dbt = dg.define_asset_job("job_dbt", selection=dg.AssetSelection.keys("staging/original_headline"))
 
 # ==================== #
 #                      #
@@ -100,10 +100,10 @@ schedule_dlt = dg.ScheduleDefinition(
 
 #sensor for the second job
 @dg.asset_sensor(asset_key=dg.AssetKey("dlt_jobads_source_get_hits"),
-                 job_name="job_dbt")
+                 job=job_dbt,
+                 name="dlt_load_sensor")
 def dlt_load_sensor():
     yield dg.RunRequest()
-
 
 # ==================== #
 #                      #
